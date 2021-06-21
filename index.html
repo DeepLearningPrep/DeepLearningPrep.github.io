@@ -5,26 +5,23 @@
 </head>
 
 <body>
- <div id="paypal-button-container-P-7SA92664HJ290894GMDHVZLA"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=Acv-yjcSwMTvdM-wnjDieKPD45ABfyId12ekVxEJWl-8AjQxQSgEAdYl-NohdbV7RF7uDtRqef82vHaN&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script> 
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'white',
-          layout: 'horizontal',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-7SA92664HJ290894GMDHVZLA'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-7SA92664HJ290894GMDHVZLA'); // Renders the PayPal button
-</script>
+<script async src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
+<div
+    data-ap-widget-type="expressPaymentButton"
+    data-ap-signature="sti4uF75Zgo1VklqvhWfZC7FsEoXPhgBzXRCxhpMbn0%3D"
+    data-ap-seller-id="A3QES30A4MJ1KZ"
+    data-ap-access-key="AKIAIZAWJECUCDBLHYKQ"
+    data-ap-lwa-client-id="amzn1.application-oa2-client.d319554cb1c443e182e6f909a3fb6134"
+    data-ap-return-url="https://deepLearningPrep.com"
+
+
+    data-ap-currency-code="USD"
+    data-ap-amount="9.99"
+    data-ap-note=""
+    data-ap-shipping-address-required="false"
+    data-ap-payment-action="AuthorizeAndCapture"
+>
+</div>
+
 </body>
 </html>
