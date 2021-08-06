@@ -1,4 +1,4 @@
-# DeepLearningPrep.github.io
+# Deep Learning Prep
 
 Please visit <a href="deeplearningprep.com">DeepLearningPrep.com</a> 
 
