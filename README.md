@@ -1,9 +1,8 @@
 # DeepLearningPrep.github.io
-website
 
-Welcome to Deep Learning Prep website 
+Please Visit DeepLearningPrep.com 
 
-We are the premier online school to prepare high school students for leadership roles in computer science, engineering, medicine, and economics.
+We are the premier online program to prepare high school students for leadership roles in computer science, engineering, medicine, and economics.
 
 Deep Learnin Prep gives a unique educational advantage to sudents with a state-of-the-art Deep Learning curriculum, including history of computing, coding in python, and a hands-on guide to build their own custon Deep Learning projet.
 
