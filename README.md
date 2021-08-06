@@ -1,6 +1,6 @@
 # DeepLearningPrep.github.io
 
-Please Visit DeepLearningPrep.com 
+Please visit <a href="deeplearningprep.com">DeepLearningPrep.com</a> 
 
 We are the premier online program to prepare high school students for leadership roles in computer science, engineering, medicine, and economics.
 
